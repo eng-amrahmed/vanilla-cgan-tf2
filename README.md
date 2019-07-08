@@ -3,7 +3,7 @@ Simple TensorFlow 2.0 implementation for Conditional Generative Adversarial Netw
 I trained the CGAN to generate samples from a particular class label
 
 ### CGAN
-CGAN is an extension to Generative adversarial networks where both of the generator and discriminator are conditioned on some extra information y.
+CGAN is an extension to Generative Adversarial Networks where both of the generator and discriminator are conditioned on some extra information y.
 y could be any thing such as class labels or data from other modalities.
 
 ![Alt text](images/figure.png?raw=true "Title")
@@ -13,7 +13,7 @@ y could be any thing such as class labels or data from other modalities.
 ![Alt text](images/equation.png?raw=true "Title")
 
 
-In the notebook source code I conditioned it by feeding the class label into both of the discriminator and generator. So that after training you could use the generator to generate samples from a particular class label.
+In the notebook source code I conditioned it by feeding the class label into both of the discriminator and generator. After training you could use the generator to generate samples from a particular class label.
 
 
 
