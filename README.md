@@ -1,5 +1,5 @@
 # vanilla-cgan-tf2
-The Simplest TensorFlow 2.0 implementation for Conditional Generative Adversarial Network  
+The simplest TensorFlow 2.0 implementation for Conditional Generative Adversarial Network  
 I trained the CGAN to generate samples from a particular class label
 
 ### CGAN
